@@ -41,6 +41,54 @@ mark {
 
 }
 
+#why-des {
+
+	width: 50vw;
+	font-size: 22px;
+	margin: auto;
+	background-color: #75b4f3;
+	text-align: center;
+
+}
+
+#comps {
+
+	margin-left: 40vw;
+	width: 20vw;
+	height: 20vh;
+	overflow-y: auto;
+	text-align: left;
+
+}
+
+#why {
+
+	background-color: #75b4f3;
+	background-image: url("images/overlay.png"), url("images/pattern-size1.svg");
+	background-position: top left, center center;
+	background-attachment: fixed, fixed;
+	background-size: auto, cover;
+	color: white;
+
+}
+
+#why-head {
+
+	color: white;
+	font-size: 50px;
+	height: 5vh;
+
+}
+
+#followup p {
+
+	width: 20vw;
+	margin: auto;
+
+}
+
+/*MAIN*/
+
 
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
@@ -332,14 +380,6 @@ input, select, textarea {
 		a:hover {
 			color: #4696e5;
 		}
-
-	strong, b {
-		color: #828282;
-	}
-
-	h1, h2, h3, h4, h5, h6 {
-		color: #828282;
-	}
 
 	blockquote {
 		border-left-color: #e6e6e6;
